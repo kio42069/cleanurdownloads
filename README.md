@@ -1,26 +1,41 @@
-# cleanurdownloads
-A simple Python script to organise your downloads folder
+# Downloads Organizer
+
+A simple Python script to organize your downloads folder.
 
 ## Requirements
-- You need to have python installed in your system
-- This code was tested and created on a Windows system, so there's no guarantee if it will work on a Mac or a Linux system. It should ideally work, but no promises
-- Download the provided python file in your donwloads directory (make sure the dowanloadsCleaner.py file itself is in downloads, and not in any subfolder)
 
-## How to use (Method 1) (Easier)
-- Simple click the python file to run it
+- Python 3.x installed on your system.
+- This script was developed and tested on a Windows system. While it should ideally work on other systems, compatibility is not guaranteed.
 
-## How to use (Method 2)
-- Open up terminal, navigate to Downloads using cd
-- run the given command
-```
-py downloadsCleaner.py
-```
-- After the terminal prints the success message, open up your file explorer and check for results
+## Usage
 
+- Run the script from any folder, and it will organize the **Downloads** folder.
+- It scans the **Downloads** directory for files and categorizes them based on their file extensions into separate folders.
 
-## How to extend the script to include custom file extensions 
-It's a fairly simple code, and actually works on any folder to be used to organise. Just run in in the folder you want to organise.
+## Customizing File Extensions
 
-Anyways back to customising the code, you simply need to add in the extension names required on the required lists. And if you want to add any new kind of folder, simply add it in the two lines where the folder names are declared. 
+To include custom file extensions:
 
-I will probably add a few comments to indicate where to edit the code incase it's not too clear
+1. **Open the Script:**
+   - Open the Python script in a text editor or IDE.
+
+2. **Edit File Extension Lists:**
+   - Locate the section where file extensions are listed under different categories.
+   - Add your desired file extensions to the respective lists.
+
+3. **Adding New Folders:**
+   - To add new folders for different file types:
+     - Modify the `file_extensions` dictionary by adding new keys for the desired category.
+     - Update the folder creation section to include the new category.
+
+## Additional Notes
+
+- The script's functionality is tailored to organize the **Downloads** folder.
+- If you encounter permission issues or specific file types not being organized, it might be due to file access restrictions.
+- Comments have been added within the script to indicate areas that can be edited for customization.
+
+Feel free to modify the script to suit your needs!
+
+---
+
+This updated README emphasizes that the script specifically targets the **Downloads** folder within the directory where it's run, providing a clear understanding to users about its functionality.
