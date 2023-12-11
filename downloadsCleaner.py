@@ -92,6 +92,8 @@ fileOrganized = str(len(list_of_files)-errorFileCount -miscalFileCount)
 print(fileOrganized +" Files have been organized")
 time.sleep(0.5)
 print("Downloads cleanup completed! Enjoy the tidiness.")
-print("Credits: ")
-print("Python script : Surat S.S.")
-print("Python script cleanup, Batch file and Readme : Mehul Pahuja")
+print('''
+Contributors:
+Surat
+Mehul
+''')
