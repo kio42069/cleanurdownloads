@@ -16,3 +16,11 @@ A simple Python script to organise your downloads folder
 py downloadsCleaner.py
 ```
 - After the terminal prints the success message, open up your file explorer and check for results
+
+
+## How to extend the script to include custom file extensions 
+It's a fairly simple code, and actually works on any folder to be used to organise. Just run in in the folder you want to organise.
+
+Anywways back to customising the code, you simply need to add in the extension names required on the required lists. And if you want to add any new kind of folder, simply add it in the two lines where the folder names are declared. 
+
+I will probably add a few comments to indicate where to edit the code incase it's not too clear
