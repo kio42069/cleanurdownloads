@@ -25,7 +25,7 @@ To include custom file extensions:
 
 3. **Adding New Folders:**
    - To add new folders for different file types:
-     - Modify the `file_extensions` dictionary by adding new keys for the desired category.
+     - Modify the `file_extensions` list by adding new entries for the desired category.
      - Update the folder creation section to include the new category.
 
 ## Additional Notes
