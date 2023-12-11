@@ -94,6 +94,6 @@ time.sleep(0.5)
 print("Downloads cleanup completed! Enjoy the tidiness.")
 print('''
 Contributors:
-Surat
-Mehul
+Surat Sathi Samanta
+Mehul Pahuja
 ''')
