@@ -13,14 +13,15 @@ file_extensions = {
     "documents": ["docx", "pdf", "txt", "html", "ppt", "odt", "xls", "csv", "rtf", "ppt", ".md"],
     "zips": ["zip", "7zip", "rar", "tar", "gz", "bz2"],
     "executables": ["exe", "apk", "bin", "part", "iso", "msi", "torrent", "sh"], #Can name them Drivers
-    "codes": ["c", "cpp", "py", "m", "brd", "sch", "fxml", "java", "conf", "html", "json", "xlsx", "mobi", "css", "scss", "js","ipynb"]
+    "codes": ["c", "cpp", "py", "m", "brd", "sch", "fxml", "java", "conf", "html", "json", "xlsx", "mobi", "css", "scss", "js","ipynb"],
+    "folders": []
 }
 
 #Print Logs
 print("Initializing File Cleanup...")
-time.sleep(1)  # Simulating some work being done
+time.sleep(0.5)  # Simulating some work being done
 print("Hacking Your PC.....")
-time.sleep(1)
+time.sleep(0.5)
 print("JKJK!")
 time.sleep(0.5)
 print("Checking for unnecessary files...")
@@ -76,7 +77,7 @@ for i in list_of_files:
             fromname = path + "/" + i
             toname = path + "/codes/" + i
             os.rename(fromname, toname)
-        elif not os.path.isfile(os.path.join(path + "/",i)) and i not in file_extensions.keys() and i!="folders":
+        elif not os.path.isfile(os.path.join(path + "/",i)) and i not in file_extensions.keys():
             print(i)
             fromname = path + "/" + i
             toname = path + "/folders/" + i
