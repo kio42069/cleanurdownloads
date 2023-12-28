@@ -76,7 +76,7 @@ for i in list_of_files:
             fromname = path + "/" + i
             toname = path + "/codes/" + i
             os.rename(fromname, toname)
-        elif not os.path.isfile(os.path.join(path + "/",i)) and i not in file_extensions.keys():
+        elif not os.path.isfile(os.path.join(path + "/",i)) and i not in file_extensions.keys() and i!="folders":
             print(i)
             fromname = path + "/" + i
             toname = path + "/folders/" + i
