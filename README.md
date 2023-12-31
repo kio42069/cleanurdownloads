@@ -15,8 +15,8 @@ A simple Python script to organize your downloads folder.
 
 ## Usage
 
-- Run the script from any folder, and it will organize the **Downloads** folder.
-- It scans the **Downloads** directory for files and categorizes them based on their file extensions into separate folders.
+- Clone this repository
+- Click on the run file
 
 ## Customizing File Extensions
 
