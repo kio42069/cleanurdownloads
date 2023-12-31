@@ -16,7 +16,7 @@ A simple Python script to organize your downloads folder.
 ## Usage
 
 - Clone this repository
-- Click on the run file
+- Open the run file
 
 ## Customizing File Extensions
 
