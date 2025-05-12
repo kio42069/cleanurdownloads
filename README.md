@@ -1,3 +1,9 @@
+
+
+
+https://github.com/mehulhere/cleanurdownloads/assets/99717294/f3aedf9e-e0ab-4443-affa-34a8bdd2d5b7
+
+
 # Downloads Organizer
 
 A simple Python script to organize your downloads folder.
@@ -9,8 +15,8 @@ A simple Python script to organize your downloads folder.
 
 ## Usage
 
-- Run the script from any folder, and it will organize the **Downloads** folder.
-- It scans the **Downloads** directory for files and categorizes them based on their file extensions into separate folders.
+- Clone this repository
+- Open the run file
 
 ## Customizing File Extensions
 
